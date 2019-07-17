@@ -14,6 +14,8 @@
 		E66D7D1F22DEECD000CBD8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66D7D1D22DEECD000CBD8C4 /* LaunchScreen.storyboard */; };
 		E66D7D2A22DEECD000CBD8C4 /* iconfontTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D7D2922DEECD000CBD8C4 /* iconfontTestTests.swift */; };
 		E66D7D3522DEECD000CBD8C4 /* iconfontTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66D7D3422DEECD000CBD8C4 /* iconfontTestUITests.swift */; };
+		E66D7D4722DEEEDE00CBD8C4 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E66D7D4522DEEEDE00CBD8C4 /* iconfont.ttf */; };
+		E66D7D4822DEEEDE00CBD8C4 /* demo_index.html in Resources */ = {isa = PBXBuildFile; fileRef = E66D7D4622DEEEDE00CBD8C4 /* demo_index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E66D7D3022DEECD000CBD8C4 /* iconfontTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iconfontTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66D7D3422DEECD000CBD8C4 /* iconfontTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconfontTestUITests.swift; sourceTree = "<group>"; };
 		E66D7D3622DEECD000CBD8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66D7D4522DEEEDE00CBD8C4 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		E66D7D4622DEEEDE00CBD8C4 /* demo_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		E66D7D1322DEECCD00CBD8C4 /* iconfontTest */ = {
 			isa = PBXGroup;
 			children = (
+				E66D7D4422DEEEDE00CBD8C4 /* iconfont */,
 				E66D7D1422DEECCD00CBD8C4 /* AppDelegate.swift */,
 				E66D7D1622DEECCD00CBD8C4 /* ViewController.swift */,
 				E66D7D1822DEECCD00CBD8C4 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				E66D7D3622DEECD000CBD8C4 /* Info.plist */,
 			);
 			path = iconfontTestUITests;
+			sourceTree = "<group>";
+		};
+		E66D7D4422DEEEDE00CBD8C4 /* iconfont */ = {
+			isa = PBXGroup;
+			children = (
+				E66D7D4522DEEEDE00CBD8C4 /* iconfont.ttf */,
+				E66D7D4622DEEEDE00CBD8C4 /* demo_index.html */,
+			);
+			path = iconfont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66D7D4722DEEEDE00CBD8C4 /* iconfont.ttf in Resources */,
+				E66D7D4822DEEEDE00CBD8C4 /* demo_index.html in Resources */,
 				E66D7D1F22DEECD000CBD8C4 /* LaunchScreen.storyboard in Resources */,
 				E66D7D1C22DEECD000CBD8C4 /* Assets.xcassets in Resources */,
 				E66D7D1A22DEECCD00CBD8C4 /* Main.storyboard in Resources */,

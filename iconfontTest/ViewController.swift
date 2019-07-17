@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//MARK: 注意iconfont虽然可以随意改变颜色，但是只支持单色，不支持多色的icon，所以如果是多色的icon还是只能切图
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
